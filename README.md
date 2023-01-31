@@ -22,7 +22,7 @@ The site will be targeted to those who want to eliminate time-consuming process 
 
 - __Home Page__ 
 
-    - the Header
+    - the Main Image section
         - Contains Call to Action Section. 
         - Consists of two car images that are links to "Rent a Car" and "Lease a Car" site pages. These allows the user to choose between two optins, whether to rent or lease the car.
 
