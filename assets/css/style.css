@@ -9,4 +9,15 @@
 body {
     font-family: Ubuntu, sans-serif;
     font-weight: 400;
+    color: #000;
 }
+
+/* logo */
+#logo {
+    font-family: Warnes, sans-serif;
+    text-transform: uppercase;
+    color: #ED2222;
+    float: left;
+    font-size: 280%;
+}
+
