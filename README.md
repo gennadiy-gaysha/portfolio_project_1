@@ -34,12 +34,6 @@ The site will be targeted to those who want to eliminate time-consuming process 
 
     ![Firm Ethos](assets/img/media/firm_ethos.png)
 
-    - Location section
-        - Contains gallery of cities' images wehre CARRENT officies are presented.
-        - This section is valuable to the users as they will be able to easily identify where they can use CARRENT service.
-
-    ![Locations](assets/img/media/locations.png)
-
     - How it works section
         - Allows the user to see the benefits of using CARRENT services as compared to other competitors. 
         - The user will see the value of signing up to CARRENT site.

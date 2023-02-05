@@ -37,6 +37,10 @@ header {
     float: right;
 }
 
+#logo {
+    margin-left: 60px;
+}
+
 #menu,
 #logo {
     line-height: 75px;
@@ -62,6 +66,10 @@ header {
 }
 
 /* CAT section */
+#cat {
+    box-shadow:
+}
+
 #cat-background {
     width: 100%;
     height: 600px;
@@ -69,10 +77,10 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: inset 0 5px 5px #212121;
+    box-shadow: inset 0 5px 5px #212121, 0 -5px 50px #4d4d4d;
 }
 
-#cat-background div {   
+#cat-background div {
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -86,6 +94,7 @@ header {
 .cat h2 {
     font-size: 250%;
     padding-top: 60px;
+    letter-spacing: 2px;
 }
 
 .rent,
@@ -115,19 +124,61 @@ header {
 
 .rent h3 {
     padding: 35px;
-    font-size: 200%;
+    font-size: 220%;
+    letter-spacing: 2px;
 }
 
 .leasing h3 {
     padding: 35px;
     font-size: 200%;
+    letter-spacing: 2px;
 }
 
-/* img {
+/* Main image section */
+#ethos-background {
+    background-color: #F1F1F1;
+    background-image: url(/assets/img/firm_ethos.png);
+    background-position: center 150px;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+
+.text-button {
     position: absolute;
+    top: 250px;
+    left: 330px;
     margin: 0 auto;
-    top: 50px;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-    display: block;} */
+}
+
+#ethos-background h3 {
+    font-size: 220%;
+    line-height: 50px;
+}
+
+/* button */
+#ethos-background a {
+    display: block;
+    width: 242px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #8B7F80;
+    border-radius: 4px;
+    margin: 15px auto;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    background-color: #F1F1F199;
+    line-height: 56px;
+}
+
+/* availability */
+.cities {
+    height: 600px;
+    width: 100%;
+    background-color: #F1F1F1;
+
+}
+
+
