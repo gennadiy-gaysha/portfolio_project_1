@@ -10,6 +10,7 @@ body {
     font-family: Ubuntu, sans-serif;
     font-weight: 400;
     color: #000;
+    background-color: #F1F1F1;
 }
 
 header {
@@ -66,13 +67,9 @@ header {
 }
 
 /* CAT section */
-#cat {
-    box-shadow:
-}
-
 #cat-background {
     width: 100%;
-    height: 600px;
+    height: 650px;
     background: url(/assets/img/background.png) center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,7 +96,7 @@ header {
 
 .rent,
 .leasing {
-    margin-top: 60px;
+    margin-top: 80px;
     background-color: rgb(0, 0, 0, .5);
     width: 350px;
     height: 350px;
@@ -135,10 +132,14 @@ header {
 }
 
 /* Main image section */
+.right-wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
 #ethos-background {
-    background-color: #F1F1F1;
     background-image: url(/assets/img/firm_ethos.png);
-    background-position: center 150px;
+    background-position: right 125px;
     background-repeat: no-repeat;
     height: 600px;
     position: relative;
@@ -147,12 +148,11 @@ header {
 .text-button {
     position: absolute;
     top: 250px;
-    left: 330px;
     margin: 0 auto;
 }
 
 #ethos-background h3 {
-    font-size: 220%;
+    font-size: 250%;
     line-height: 50px;
 }
 
@@ -165,7 +165,7 @@ header {
     font-weight: 600;
     border: 2px solid #8B7F80;
     border-radius: 4px;
-    margin: 15px auto;
+    margin: 25px auto;
     text-decoration: none;
     text-align: center;
     color: #000;
@@ -174,11 +174,68 @@ header {
 }
 
 /* availability */
-.cities {
-    height: 600px;
+.location {
+    height: 500px;
     width: 100%;
-    background-color: #F1F1F1;
+    margin: 0 auto;
 
 }
 
+.center-wrapper {
+    margin: 0 auto;
+    width: 900px;
+    height: 300px;
+    text-align-last: left;
+}
 
+.location h2 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.city img {
+    display: block;
+    width: 217.5px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.center-wrapper .city:last-child img, .action:last-child {
+    margin-right: 0px;
+}
+
+.city {
+    float: left;
+}
+
+/* How it works section */
+.how_to {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.action {
+    float: left;
+}
+
+.action img {
+    display: block;
+    width: 217.5px;
+    margin-right: 10px;
+}
+
+.center-wrapper .action:last-child img {
+    margin-right: 0px;
+}
+
+.how_to h2,
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.text-block {
+    display: inline-block;
+    width: 217.5px;
+}
