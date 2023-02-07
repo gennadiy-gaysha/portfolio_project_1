@@ -239,3 +239,24 @@ h3 {
     display: inline-block;
     width: 217.5px;
 }
+
+/* Why Carrent */
+.why-carrent {
+    width: 100%;
+    height: 600px;
+}
+
+.why-carrent h2 {
+    margin: 50px 0;
+    padding-top: 150px;
+}
+
+.review img{
+    float: left;
+    margin-right: 10px;
+    width: 293.3px;
+}
+
+.center-wrapper .review:last-child img {
+    margin-right: 0px;
+}
