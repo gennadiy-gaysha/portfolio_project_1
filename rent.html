@@ -10,7 +10,7 @@
     <meta name="keywords" content="car rent, car leasing, los angeles, san fransisco, washington, boston">
     <link rel=" stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/img/favicon/icons8-car-rental-64.png" />
-    <title>CARRENT | car rent</title>
+    <title>CARRENT | Cars to Rent</title>
 
 </head>
 
@@ -31,9 +31,87 @@
             </nav>
         </div>
     </header>
-    <section id="rent">
 
+    <section id="rent">
+        <div class="rent-wrapper">
+            <h2>cars for rent</h2>
+            <form method="post" action="https://formdump.codeinstitute.net/" class="rent-form">
+                <h4>Type of service:</h4>
+                <a href="rent.html">Rent</a>
+                <a href="leasing.html">Lease</a>
+                <img src="assets/img/rent.png" alt="Cars for rent">
+
+                <label for="make">Make:</label>
+                <select id="make" name="make" required class="text-input">
+                    <option value="">-- Please, choose the make --</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Mercedez-Benz">Mercedez-Benz</option>
+                    <option value="BMW">BMW</option>
+                    <option value="VW">Volkswagen</option>
+                </select>
+
+                <label for="type">Type:</label>
+                
+                <select id="type" name="type" required class="text-input">
+                    <option value="">-- Please, choose vehicle type --</option>
+                    <option value="B">B: 2-3 Door</option>
+                    <option value="C">C: 2/4 Door</option>
+                    <option value="D">D: 4-5 Door</option>
+                    <option value="W">W: Wagon/Estate</option>
+                    <option value="V">V: Passenger Van</option>
+                    <option value="S">S: Sport</option>
+                    <option value="F">F: SUV</option>
+                </select>
+
+
+                <table>
+                    <tr>
+                        <td><label for="start-date">Start date:</label>
+                            <input id="start-date" type="date" name="start-date" required class="text-input"></td>
+                        <td> <label for="start-time">Start time:</label>
+                            <input id="start-time" type="time" name="start-time" required class="text-input"></td>
+                        <td> <label for="end-date">Return date:</label>
+                            <input id="end-date" type="date" name="end-date" required class="text-input"></td>
+                        <td><label for="end-time">Return time:</label>
+                            <input id="end-time" type="time" name="end-time" required class="text-input"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label for="pickup">Picking up Location:</label>
+                            <select id="pickup" name="pickup" required class="text-input">
+                                <option value="">-- Please, choose pickup City --</option>
+                                <option value="WASHINGTON">WASHINGTON</option>
+                                <option value="LOS_ANGELES">LOS ANGELES</option>
+                                <option value="SAN_FRANCISCO">SAN FRANCISCO</option>
+                                <option value="BOSTON">BOSTON</option>
+                            </select></td>
+                        <td colspan="2"><label for="return">Return Location:</label>
+                            <select id="return" name="return" required class="text-input">
+                                <option value="">-- Please, choose pickup City --</option>
+                                <option value="WASHINGTON">WASHINGTON</option>
+                                <option value="LOS_ANGELES">LOS ANGELES</option>
+                                <option value="SAN_FRANCISCO">SAN FRANCISCO</option>
+                                <option value="BOSTON">BOSTON</option>
+                            </select></td>
+                    </tr>
+
+                </table>
+
+
+
+
+
+
+
+
+
+
+
+
+                <input type="submit" value="Book now" class="book-button">
+            </form>
+        </div>
     </section>
+
     <footer>
         <div class="wrapper">
             <div class="openning-hours">
