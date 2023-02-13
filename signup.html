@@ -10,7 +10,7 @@
     <meta name="keywords" content="car rent, car leasing, los angeles, san fransisco, washington, boston">
     <link rel=" stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/img/favicon/icons8-car-rental-64.png" />
-    <title>CARRENT | Sign UP</title>
+    <title>CARRENT | Cars to Rent</title>
 
 </head>
 
@@ -25,35 +25,47 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="rent.html">Rent</a></li>
                     <li><a href="leasing.html">Leasing</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery">Gallery</a></li>
                     <li><a href="signup.html" class="active">Sign UP</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="cat-background">
-        <div class="cat">
-            <h2>please, choose your option</h2>
-            <a href="#">
-                <div class="rent">
-                    <img src="assets/img/red_car.png" alt="Red car">
-                    <h3>rent</h3>
-                </div>
-            </a>
+    <section id="service">
+        <div class="service-wrapper">
+            <h2>Let's get you signed up!</h2>
+            <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <img src="assets/img/signup.png" alt="White Audi" class="signup-car">
 
-            <a href="#">
-                <div class="leasing">
-                    <img src="assets/img/blue_car.png" alt="Blue car">
-                    <h3>leasing</h3>
-                </div>
-            </a>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" required class="signup-input">
+
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" required class="signup-input">
+
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email" required class="signup-input">
+
+                <fieldset>
+                    <legend>I'm at least 18 years old<br><br><label for="age-no">No</label>
+                        <input id="age-no" type="radio" name="age" value="18_no" required>
+
+                        <label for="age-yes">Yes</label>
+                        <input id="age-yes" type="radio" name="age" value="18_yes"></legend>
+                </fieldset>
+
+
+                <input type="submit" value="Submit" class="signup-button">
+            </form>
         </div>
     </section>
+
     <div><iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2847.248730179268!2d-73.15540279999999!3d44.46907410000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca79079b2dcaf5%3A0x9ae369f3ebb46135!2s1200%20Airport%20Dr%2C%20South%20Burlington%2C%20VT%2005403%2C%20USA!5e0!3m2!1sen!2sde!4v1676224645315!5m2!1sen!2sde"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
     <footer>
         <div class="wrapper">
             <div class="openning-hours">
