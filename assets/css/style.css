@@ -414,11 +414,12 @@ footer {
 }
 
 .book-button {
+    text-transform: uppercase;
     margin: 90px auto 0;
     padding: 15px 62px;
     text-align: center;
     font-size: 100%;
-    background-color: rgba(255, 0, 0, 1);
+    background-color: rgba(255, 0, 0, 0.8);
     color: rgba(255, 255, 255, 1);
     display: block;
     border-radius: 5px;
@@ -453,12 +454,22 @@ footer {
 /* Gellery section */
 .gallery-container {
 
-    height: 1200px;
+    height: 1300px;
     background: url(../img/background.png) center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: inset 0 5px 5px #212121, 0 -1px 20px #4d4d4d;
+}
+
+.gallery-container h2{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 5px;
+    
 }
 
 #photos {
@@ -501,7 +512,7 @@ iframe {
     width: 50%;
     position: absolute;
     top: 70px;
-    left: 430px;
+    left: 440px;
 }
 
 .signup-input {
