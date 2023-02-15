@@ -10,11 +10,11 @@ body {
     font-family: Ubuntu, sans-serif;
     font-weight: 400;
     color: #000;
-    
+
 }
 
 /* Background + Center wrapper 1000px */
-.cat-footer-container {
+.cat-footer-background {
     width: 100%;
     background: url(../img/background.png) center center;
     background-size: cover;
@@ -24,29 +24,27 @@ body {
     overflow: hidden;
 }
 
-.inside-container{
+.internal-background {
     width: 100%;
     overflow: hidden;
     background-color: #F1F1F1;
 }
 
-.center-wrapper{
+.center-wrapper {
     margin: 0 auto;
     width: 1000px;
 }
 
-
-
+.center-wrapper h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
 
 header {
     width: 100%;
     height: 75px;
     background-color: #2B2B2B;
-}
-
-.wrapper-header {
-    width: 1000px;
-    margin: 0 auto;
+    overflow: hidden;
 }
 
 /* logo */
@@ -59,7 +57,6 @@ header {
 }
 
 /* navigation links */
-
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
@@ -94,9 +91,9 @@ nav>ul:last-child {
     margin-left: 30px;
 }
 
-/* CAT section */
+/* Call To Action (cat) section */
 
-.cat{
+.cat {
     color: white;
     text-transform: uppercase;
     text-align: center;
@@ -152,65 +149,55 @@ nav>ul:last-child {
 
 
 /* Main image section */
-
-.right-wrapper {
-    width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-#ethos-background {
-    background-image: url(../img/firm_ethos.png);
-    background-position: right 125px;
-    background-repeat: no-repeat;
-    height: 600px;
+.main-image {
+    height: 620px;
     position: relative;
 }
 
-.text-button {
-    position: absolute;
-    top: 250px;
-    margin: 0 auto;
+.main-image img {
+    margin-top: 100px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 0 92px 30px 0;
 }
 
-#ethos-background h3 {
+.main-image h3 {
     font-size: 250%;
     line-height: 50px;
+    position: absolute;
+    top: 250px;
 }
 
-/* button */
-.text-button a {
-    display: block;
+/* Main button */
+.main-button {
     width: 242px;
-    height: 56px;
     font-size: 18px;
     font-weight: 600;
     border: 2px solid #8B7F80;
     border-radius: 4px;
-    margin: 25px auto;
     text-decoration: none;
     text-align: center;
     color: #000;
-    background-color: #F1F1F199;
+    background-color: rgba(241, 241, 241, 0.7);
     line-height: 56px;
+    position: absolute;
+    top: 400px;
+    left: 150px;
 }
 
 /* Location */
 .location {
-    height: 500px;
-}
-
-.location h2 {
-    text-transform: uppercase;
-    margin-bottom: 50px;
+    height: 520px;
 }
 
 .city img {
     display: block;
     width: 242.5px;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .city:last-child img,
@@ -224,7 +211,15 @@ nav>ul:last-child {
 
 /* How it works section */
 .how-to {
-    height: 300px;
+    height: 450px;
+}
+
+.how-to h2 {
+    margin-bottom: 0;
+}
+
+.how-to h3 {
+    margin-bottom: 30px;
 }
 
 .action {
@@ -235,16 +230,13 @@ nav>ul:last-child {
     display: block;
     width: 242.5px;
     margin-right: 10px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 }
 
 .center-wrapper .action:last-child img {
     margin-right: 0px;
-}
-
-.how_to h2,
-h3 {
-    text-transform: uppercase;
-    margin-bottom: 50px;
 }
 
 .text-block {
@@ -254,45 +246,22 @@ h3 {
 
 /* Why Carrent */
 .why-carrent {
-   
-    height: 650px;
-    
-}
-
-.why-carrent h2 {
-    margin: 50px 0;
-    padding-top: 150px;
+    height: 450px;
 }
 
 .review img {
     float: left;
     margin-right: 10px;
     width: 326.6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
 }
 
 .review:last-child img {
     margin-right: 0px;
 }
 
-/* footer */
-/* footer {
-    width: 100%;
-    height: 400px;
-    background: url(../img/background.png) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 0 -1px 20px #4d4d4d;
-    overflow: hidden;
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
-    height: 300px;
-} */
-
-footer{
+footer {
     height: 400px;
 }
 
@@ -349,8 +318,7 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: inset 0 5px 5px #212121, 0 -1px 20px #4d4d4d;
-
-
+    overflow: hidden;
 }
 
 .service-wrapper {
@@ -463,13 +431,13 @@ footer{
 
 /* Gellery section */
 .gallery-container {
-
     height: 1300px;
     background: url(../img/background.png) center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: inset 0 5px 5px #212121, 0 -1px 20px #4d4d4d;
+    overflow: hidden;
 }
 
 .gallery-container h2 {
@@ -479,17 +447,16 @@ footer{
     text-align: center;
     padding-top: 50px;
     letter-spacing: 5px;
-
 }
 
 #photos {
-    margin: 0 auto;
     width: 1100px;
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
     padding: 50px 0;
+    margin: 0 auto;
 }
 
 #photos>img {
@@ -497,9 +464,15 @@ footer{
 }
 
 /* Embedded map  */
+.find-us {
+    width: auto;
+    height: 400px;
+    margin: 0 auto 30px;
+}
+
 iframe {
-    width: 100%;
-    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* Signup form */
@@ -561,15 +534,26 @@ iframe {
 
 /* Media queries */
 
-@media screen and (max-width: 950px) {
-    #photos {
-        column-count: 3;
-    }
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    
 }
 
-@media screen and (max-width: 800px) {
-    #photos {
-        width: 50%;
-        column-count: 2;
+@media screen and (max-width: 1050px) {
+    /* #menu {
+        float: left;
     }
+    nav>ul:last-child {
+        margin-left: 200px;
+    } */
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+}
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+
 }
