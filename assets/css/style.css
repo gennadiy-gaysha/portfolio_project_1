@@ -74,6 +74,11 @@ header {
     margin-right: 30px;
 }
 
+#menu li:last-child {
+    margin-right: 0;
+}
+
+
 #menu a {
     text-decoration: none;
     color: #FFF;
@@ -107,14 +112,14 @@ nav>ul:last-child {
 
 .cat h2 {
     font-size: 250%;
-    padding-top: 90px;
+    padding-top: 70px;
     letter-spacing: 2px;
 }
 
 .rent,
 .leasing {
     color: white;
-    margin-top: 95px;
+    margin-top: 60px;
     background-color: rgb(0, 0, 0, .5);
     width: 400px;
     height: 400px;
@@ -181,8 +186,8 @@ nav>ul:last-child {
     background-color: rgba(241, 241, 241, 0.7);
     line-height: 56px;
     position: absolute;
-    top: 400px;
-    left: 150px;
+    top: 370px;
+    left: 100px;
 }
 
 /* Location */
@@ -200,8 +205,7 @@ nav>ul:last-child {
 
 }
 
-.city:last-child img,
-.action:last-child {
+.city:last-child img {
     margin-right: 0px;
 }
 
@@ -222,10 +226,6 @@ nav>ul:last-child {
     margin-bottom: 30px;
 }
 
-.action {
-    float: left;
-}
-
 .action img {
     display: block;
     width: 242.5px;
@@ -235,8 +235,12 @@ nav>ul:last-child {
     border-radius: 10px;
 }
 
-.center-wrapper .action:last-child img {
+.action:last-child img {
     margin-right: 0px;
+}
+
+.action {
+    float: left;
 }
 
 .text-block {
@@ -262,7 +266,7 @@ nav>ul:last-child {
 }
 
 footer {
-    height: 400px;
+    height: 350px;
 }
 
 .openning-hours {
@@ -293,18 +297,14 @@ footer {
     height: 22px;
 }
 
-.social-networks {
-    width: 50%;
-    float: right;
-}
-
-.social-networks>li {
-    display: inline;
+.social-networks > li {
+    float: left;
+    display: block;
+    margin: 200px 30px;
 }
 
 .social-networks i {
     font-size: 160%;
-    padding: 45% 5% 0 8%;
     color: white;
     font-size: 300%;
 }
@@ -533,27 +533,50 @@ iframe {
 }
 
 /* Media queries */
-
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    
-}
-
-@media screen and (max-width: 1050px) {
-    /* #menu {
-        float: left;
+@media screen and (max-width: 1100px) {
+    .center-wrapper {
+        margin: 0 auto;
+        width: 900px;
     }
-    nav>ul:last-child {
-        margin-left: 200px;
-    } */
+
+    .rent {
+        margin-right: 100px;
+    }
+
+    .city img {
+        width: 217.5px;
+    }
+
+    .action img {
+        width: 217.5px;
+    }
+
+    .text-block {
+        width: 217.5px;
+    }
+
+    .text-block h4,
+    p {
+        font-size: 90%;
+    }
+
+    .review img {
+        width: 293.33px;
+    }
+
+    .service-wrapper {
+        margin: 0 auto;
+        width: 900px;
+    }
+
+    .social-networks>li {
+
+        margin: 200px 20px;
+    }
+
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {}
 
-}
 
-/* For small screen sizes below 800px width */
-@media screen and (max-width: 800px) {
-
-}
+@media screen and (max-width: 950px) {}
