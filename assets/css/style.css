@@ -47,7 +47,7 @@ header {
     overflow: hidden;
 }
 
-/* logo */
+/* Logo */
 #logo {
     font-family: Warnes, sans-serif;
     text-transform: uppercase;
@@ -56,7 +56,7 @@ header {
     font-size: 280%;
 }
 
-/* navigation links */
+/* Navigation links */
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
@@ -97,7 +97,6 @@ nav>ul:last-child {
 }
 
 /* Call To Action (cat) section */
-
 .cat {
     color: white;
     text-transform: uppercase;
@@ -151,7 +150,6 @@ nav>ul:last-child {
     font-size: 200%;
     letter-spacing: 2px;
 }
-
 
 /* Main image section */
 .main-image {
@@ -265,8 +263,10 @@ nav>ul:last-child {
     margin-right: 0px;
 }
 
+/* Footer */
+
 footer {
-    height: 350px;
+    height: 300px;
 }
 
 .openning-hours {
@@ -297,7 +297,7 @@ footer {
     height: 22px;
 }
 
-.social-networks > li {
+.social-networks>li {
     float: left;
     display: block;
     margin: 200px 30px;
@@ -333,6 +333,10 @@ footer {
     font-size: 250%;
     padding-top: 50px;
     letter-spacing: 5px;
+}
+
+.service-form-2 {
+    display: none;
 }
 
 .service-form {
@@ -533,7 +537,7 @@ iframe {
 }
 
 /* Media queries */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .center-wrapper {
         margin: 0 auto;
         width: 900px;
@@ -576,7 +580,374 @@ iframe {
 
 }
 
-@media screen and (max-width: 1050px) {}
+@media screen and (max-width: 992px) {
+    .center-wrapper {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    /* Logo */
+    #logo {
+        font-size: 250%;
+    }
+
+    /* Navigation links */
+    #menu {
+        font-size: 90%;
+    }
+
+    /* Call To Action (cat) section */
+    .cat {
+        height: 580px;
+    }
+
+    .cat h2 {
+        font-size: 220%;
+    }
+
+    .cat img {
+        margin-top: 25px;
+        width: 250px;
+    }
+
+    .rent,
+    .leasing {
+
+        margin-top: 40px;
+        width: 320px;
+        height: 320px;
+
+    }
+
+    .rent {
+        margin-right: 60px;
+    }
+
+    /* Main image section */
+    .main-image {
+        height: 500px;
+        position: relative;
+    }
+
+    .main-image img {
+        margin-top: 70px;
+    }
+
+    .main-image h3 {
+        font-size: 220%;
+        line-height: 40px;
+        top: 200px;
+    }
+
+    /* Main button */
+    .main-button {
+        width: 200px;
+        font-size: 18px;
+        line-height: 36px;
+        top: 300px;
+        left: 90px;
+    }
+
+    /* Location */
+    .location {
+        height: 450px;
+    }
+
+    .city img {
+        width: 167.5px;
+    }
+
+    /* How it works section */
+    .how-to {
+        height: 400px;
+    }
+
+    .action img {
+        width: 167.5px;
+    }
+
+    .text-block {
+        width: 167.5px;
+    }
+
+    .text-block h4,
+    p {
+        font-size: 80%;
+    }
+
+    /* Why Carrent */
+    .review img {
+        width: 226.67px;
+    }
+
+    .why-carrent {
+        height: 400px;
+    }
+
+    /* Footer */
+    .openning-hours h2 {
+        font-size: 110%;
+    }
+
+    .openning-hours>p {
+        font-size: 13px;
+    }
+
+    .service-wrapper {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    .social-networks>li {
+        margin: 200px 20px;
+    }
+
+    /* Rent Page, Leasing Page, SignUp page */
+    .service-form label {
+        font-size: 16px;
+    }
+
+    .text-input {
+        width: 40%;
+    }
+
+    .service-form .rent-a-car {
+        width: 45%;
+        top: 70px;
+        left: 350px;
+    }
+
+    .service-form .lease-a-car {
+        width: 33%;
+        top: 60px;
+        left: 400px;
+    }
+
+    .signup-car {
+        width: 50%;
+        position: absolute;
+        top: 70px;
+        left: 330px;
+    }
+
+    .signup-input {
+        width: 35%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .center-wrapper {
+        margin: 0 auto;
+        width: 440px;
+    }
+
+    /* Header */
+    header {
+        height: 120px;
+    }
+
+    /* Logo */
+    #logo {
+        padding-top: 5px;
+        font-size: 250%;
+    }
+
+    /* Navigation links */
+    #menu {
+        font-size: 90%;
+        float: left;
+        margin-left: 0;
+        line-height: 20px;
+    }
+
+    /* Call To Action (cat) section */
+    .cat {
+        height: 850px;
+    }
+
+    .cat h2 {
+        font-size: 150%;
+        padding-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .cat img {
+        margin-top: 5px;
+        width: 350px;
+    }
+
+    .rent,
+    .leasing {
+        margin-top: 40px;
+        width: 440px;
+        height: 320px;
+    }
+
+    .rent h3 {
+        padding: 0px;
+    }
+
+    .leasing h3 {
+        padding: 0px;
+    }
+
+    .rent {
+        margin-right: 0;
+    }
+
+    /* Main image section */
+    .main-image {
+        height: 310px;
+        position: relative;
+    }
+
+    .main-image img {
+        margin-top: 60px;
+        border-radius: 0 40px 15px 0;
+    }
+
+    .main-image h3 {
+        font-size: 140%;
+        line-height: 30px;
+        top: 100px;
+    }
+
+    /* Main button */
+    .main-button {
+        width: 150px;
+        font-size: 12px;
+        line-height: 24px;
+        top: 175px;
+        left: 50px;
+    }
+
+    /* Location */
+    .location {
+        height: 380px;
+    }
+
+    .location h2 {
+        font-size: 110%;
+    }
+
+    .location h3 {
+        font-size: 100%;
+        margin-bottom: 10px;
+    }
+
+    .city img {
+        width: 215px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .city:nth-child(3) img {
+        margin-right: 0px;
+    }
+
+    /* How it works section */
+    .how-to {
+        height: 430px;
+    }
+
+    .how-to h2 {
+        font-size: 110%;
+    }
+
+    .how-to h3 {
+        font-size: 100%;
+    }
+
+    .action img {
+        width: 215px;
+        margin-bottom: 8px;
+    }
+
+    .action:nth-child(4) img {
+        margin-right: 0;
+    }
+
+    .text-block {
+        width: 167.5px;
+    }
+
+    .text-block h4 {
+        font-size: 85%;
+        margin-bottom: 10px;
+    }
+
+    .text-block p {
+        display: none;
+    }
+
+    /* Why Carrent */
+    .why-carrent {
+        height: 700px;
+    }
+
+    .why-carrent h2 {
+        font-size: 110%;
+    }
+
+    .review img {
+        width: 226.67px;
+    }
+
+    .review img {
+        margin-right: 0;
+        width: 440px;
+        height: 200px;
+        object-fit: cover;
+        object-position: 0 -215px;
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+
+    /* Embedded map  */
+    .find-us {
+        margin: 30px auto 30px;
+        height: 280px;
+    }
+
+    .find-us iframe {
+        height: 200px;
+    }
+
+    .find-us h2 {
+        font-size: 110%;
+    }
+
+    /* Footer */
+    .openning-hours h2 {
+        font-size: 110%;
+    }
+
+    .openning-hours>p {
+        font-size: 13px;
+    }
 
 
-@media screen and (max-width: 950px) {}
+    .service-wrapper {
+        margin: 0 auto;
+        width: 440px;
+    }
+
+    .social-networks>li>a {
+        margin: 0 10px;
+        display: block;
+    }
+
+    .social-networks>li {
+        margin: 70px 20px 50px;
+    }
+
+    /* Rent Page, Leasing Page, SignUp page */
+    .service-form {
+        display: none;
+    }
+
+    .service-form-2 {
+        display: block;
+    }
+    
