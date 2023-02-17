@@ -528,6 +528,8 @@ iframe {
     background-color: rgba(255, 0, 0, 1);
 }
 
+
+
 /* Media queries */
 @media screen and (max-width: 1200px) {
     .center-wrapper {
@@ -602,6 +604,10 @@ iframe {
 
     .service-form .lease-a-car {
         left: 450px;
+    }
+
+    #photos {
+        width: 900px;
     }
 }
 
@@ -763,7 +769,7 @@ iframe {
 
     #contract,
     #period {
-        width: 360px;
+        width: 230px;
     }
 
     #small-width {
@@ -812,6 +818,16 @@ iframe {
 
     .signup-input {
         width: 35%
+    }
+
+    /* Gellery section */
+    #photos {
+        width: 700px;
+        column-count: 3;
+    }
+
+    .gallery-container {
+        height: 1450px;
     }
 }
 
@@ -1085,6 +1101,16 @@ iframe {
     .signup-input {
         width: 320px;
     }
+
+    /* Gellery section */
+    #photos {
+        width: 440px;
+        column-count: 3;
+    }
+
+    .gallery-container {
+        height: 1000px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1261,12 +1287,12 @@ iframe {
 
     /* Rent Page, Leasing Page, SignUp page */
     #service {
-        height: 930px;
+        height: 850px;
     }
 
-.service-wrapper h2 {
-    font-size: 120%;
-}
+    .service-wrapper h2 {
+        font-size: 120%;
+    }
 
     .service-form {
         padding: 115px 20px 25px;
@@ -1325,11 +1351,22 @@ iframe {
         left: 55px;
     }
 
-.signup-input {
-    width: 250px;
-}
+    .signup-input {
+        width: 250px;
+    }
 
     .book-button {
         margin: 80px auto 0;
     }
+
+        /* Gellery section */
+        #photos {
+            width: 300px;
+            column-count: 2;
+        }
+    
+        .gallery-container {
+            height: 1450px;
+    }
+    
 }
