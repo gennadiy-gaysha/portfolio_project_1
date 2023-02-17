@@ -48,7 +48,6 @@
                 </select>
 
                 <label for="type">Type:</label>
-
                 <select id="type" name="type" required class="text-input">
                     <option value="">-- Please, choose vehicle type --</option>
                     <option value="B">B: 2-3 Door</option>
@@ -60,39 +59,37 @@
                     <option value="F">F: SUV</option>
                 </select>
 
-                <table>
-                    <tr>
-                        <td><label for="start-date">Start date:</label>
-                            <input id="start-date" type="date" name="start-date" required class="text-input"></td>
-                        <td> <label for="start-time">Start time:</label>
-                            <input id="start-time" type="time" name="start-time" required class="text-input"></td>
-                        <td colspan="2"><label for="period">Leasing period:</label>
-                            <select id="period" name="period" required class="text-input width-adjustment">
-                                <option value="">-- Please, choose the desired period --</option>
-                                <option value="24_months">24 Months</option>
-                                <option value="36_months">36 Months</option>
-                                <option value="48_months">48 Months</option>
-                            </select></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><label for="pickup">Picking up Location:</label>
-                            <select id="pickup" name="pickup" required class="text-input width-adjustment">
-                                <option value="">-- Please, choose pickup City --</option>
-                                <option value="WASHINGTON">WASHINGTON</option>
-                                <option value="LOS_ANGELES">LOS ANGELES</option>
-                                <option value="SAN_FRANCISCO">SAN FRANCISCO</option>
-                                <option value="BOSTON">BOSTON</option>
-                            </select></td>
-                        <td colspan="2"><label for="contract">Type of Leasing Contract:</label>
-                            <select id="contract" name="contract" required class="text-input width-adjustment">
-                                <option value="">-- Please, choose type of Contract --</option>
-                                <option value="absolute">Absolute net lease</option>
-                                <option value="triple">Triple net lease</option>
-                                <option value="modified">Modified gross lease</option>
-                                <option value="full_service">Full-service lease</option>
-                            </select></td>
-                    </tr>
-                </table>
+                <label for="pickup" class="two-columns">Picking up Location:<select id="pickup" name="pickup" required
+                        class="text-input">
+                        <option value="">-- Please, choose pickup City --</option>
+                        <option value="WASHINGTON">WASHINGTON</option>
+                        <option value="LOS_ANGELES">LOS ANGELES</option>
+                        <option value="SAN_FRANCISCO">SAN FRANCISCO</option>
+                        <option value="BOSTON">BOSTON</option>
+                    </select></label>
+
+                <label for="start-date" class="two-columns" id="small-width">Start date:<input id="start-date"
+                        type="date" name="start-date" required class="text-input"></label>
+                <label for="start-time" class="two-columns" id="small-width">Start time:<input id="start-time"
+                        type="time" name="start-time" required class="text-input"></label>
+
+                <label for="period" class="two-columns">Leasing period:<select id="period" name="period" required
+                        class="text-input">
+                        <option value="">-- Please, choose the period --</option>
+                        <option value="24_months">24 Months</option>
+                        <option value="36_months">36 Months</option>
+                        <option value="48_months">48 Months</option>
+                    </select></label>
+
+                <label for="contract" class="two-columns">Type of Leasing Contract:<select id="contract" name="contract" required
+                        class="text-input">
+                        <option value="">-- Please, choose type of Contract --</option>
+                        <option value="absolute">Absolute net lease</option>
+                        <option value="triple">Triple net lease</option>
+                        <option value="modified">Modified gross lease</option>
+                        <option value="full_service">Full-service lease</option>
+                    </select></label>
+
 
                 <input type="submit" value="Book now" class="book-button">
             </form>

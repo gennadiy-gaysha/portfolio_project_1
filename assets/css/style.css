@@ -212,15 +212,15 @@ nav>ul:last-child {
 }
 
 /* How it works section */
-.how-to {
+#how-to {
     height: 450px;
 }
 
-.how-to h2 {
-    margin-bottom: 0;
+#how-to h2 {
+    margin-bottom: 20px;
 }
 
-.how-to h3 {
+#how-to h3 {
     margin-bottom: 30px;
 }
 
@@ -304,7 +304,6 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
     color: white;
     font-size: 300%;
 }
@@ -335,10 +334,6 @@ footer {
     letter-spacing: 5px;
 }
 
-.service-form-2 {
-    display: none;
-}
-
 .service-form {
     margin: 0 auto;
     margin-top: 50px;
@@ -364,22 +359,41 @@ footer {
     left: 500px;
 }
 
-.service-form label {
+/* ------------------------------------- */
+#make,
+#type,
+#pickup,
+#return,
+#start-date,
+#start-time,
+#end-date,
+#end-time,
+#period,
+#contract {
     display: block;
+    width: 250px;
+}
+
+.two-columns {
+    display: inline-block;
+    width: 290px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.service-form label {
     font-size: 20px;
 }
 
 .text-input {
+    box-sizing: border-box;
     font-family: Ubuntu, sans-serif;
     background: transparent;
-    width: 30%;
     height: 25px;
-    margin: 5px 0 20px;
+    margin: 10px 0 20px;
     border: 1px solid #fafafa;
     border-radius: 4px;
     color: rgba(255, 255, 255, 1);
-    display: block;
-    margin-top: 10px;
     padding-left: 10px;
 }
 
@@ -397,7 +411,7 @@ footer {
 
 .book-button {
     text-transform: uppercase;
-    margin: 90px auto 0;
+    margin: 120px auto 0;
     padding: 15px 62px;
     text-align: center;
     font-size: 100%;
@@ -409,28 +423,6 @@ footer {
 
 .book-button:hover {
     background-color: rgba(255, 0, 0, 1);
-}
-
-#service table {
-    padding-top: 20px;
-    width: 100%;
-}
-
-#service table .text-input {
-    width: 80%;
-}
-
-#service table .width-adjustment {
-    width: 93.5%;
-}
-
-#service table tr {
-    width: 25%;
-    height: 50px;
-}
-
-#service table tr:last-child td {
-    padding-top: 20px;
 }
 
 /* Gellery section */
@@ -578,6 +570,39 @@ iframe {
         margin: 200px 20px;
     }
 
+    /* Rent page */
+    .service-form {
+        padding-left: 50px;
+    }
+
+    #make,
+    #type,
+    #pickup,
+    #return,
+    #start-date,
+    #start-time,
+    #end-date,
+    #end-time,
+    #period,
+    #contract {
+        width: 250px;
+    }
+
+    .two-columns {
+        width: 265px;
+    }
+
+    .text-input {
+        height: 27px;
+    }
+
+    .service-form .rent-a-car {
+        left: 380px;
+    }
+
+    .service-form .lease-a-car {
+        left: 450px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -658,7 +683,7 @@ iframe {
     }
 
     /* How it works section */
-    .how-to {
+    #how-to {
         height: 400px;
     }
 
@@ -703,24 +728,79 @@ iframe {
     }
 
     /* Rent Page, Leasing Page, SignUp page */
+
+    .service-wrapper h2 {
+        font-size: 200%;
+    }
+
+    .service-form {
+        padding-left: 50px;
+    }
+
     .service-form label {
-        font-size: 16px;
+        font-size: 18px;
+    }
+
+    .service-form .text-input {
+        font-size: 12px;
+    }
+
+    #make,
+    #type,
+    #pickup,
+    #return,
+    #period,
+    #contract {
+        width: 230px;
+    }
+
+    #start-date,
+    #start-time,
+    #end-date,
+    #end-time {
+        width: 150px;
+    }
+
+    #contract,
+    #period {
+        width: 360px;
+    }
+
+    #small-width {
+        width: 175px;
+    }
+
+    .two-columns {
+        width: 250px;
     }
 
     .text-input {
-        width: 40%;
+        height: 27px;
     }
 
     .service-form .rent-a-car {
-        width: 45%;
-        top: 70px;
-        left: 350px;
+        left: 380px;
     }
 
     .service-form .lease-a-car {
         width: 33%;
+        position: absolute;
+        top: 50px;
+        left: 500px;
+    }
+
+    /* ------------------------------- */
+
+    .service-form .rent-a-car {
+        width: 40%;
+        top: 90px;
+        left: 345px;
+    }
+
+    .service-form .lease-a-car {
+        width: 35%;
         top: 60px;
-        left: 400px;
+        left: 370px;
     }
 
     .signup-car {
@@ -847,15 +927,15 @@ iframe {
     }
 
     /* How it works section */
-    .how-to {
+    #how-to {
         height: 430px;
     }
 
-    .how-to h2 {
+    #how-to h2 {
         font-size: 110%;
     }
 
-    .how-to h3 {
+    #how-to h3 {
         font-size: 100%;
     }
 
@@ -943,11 +1023,313 @@ iframe {
     }
 
     /* Rent Page, Leasing Page, SignUp page */
-    .service-form {
-        display: none;
+    #service {
+        height: 900px;
     }
 
-    .service-form-2 {
+    .service-form {
+        padding: 100px 40px 40px;
+        height: 500px;
+    }
+
+    .signup-form {
+        padding: 170px 60px 40px;
+        height: 350px;
+    }
+
+    #make,
+    #type,
+    #pickup,
+    #return {
+        width: 360px;
+    }
+
+    #start-date,
+    #start-time,
+    #end-date,
+    #end-time {
+        width: 170px;
+    }
+
+    #start-time,
+    #end-time {
+        margin-left: 9px;
+    }
+
+    #small-width {
+        width: 178px;
+    }
+
+    .service-form .rent-a-car {
+        width: 55%;
+        top: 35px;
+        left: 110px;
+    }
+
+    .service-form .lease-a-car {
+        width: 35%;
+        top: 30px;
+        left: 150px;
+    }
+
+    .signup-form .signup-car {
+        width: 55%;
+        top: 15px;
+        left: 110px;
+    }
+
+    .book-button {
+        margin: 80px auto 0;
+    }
+
+    .signup-input {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .center-wrapper {
+        width: 300px
+    }
+
+    /* Logo */
+    #logo {
+        padding-top: 5px;
+        font-size: 230%;
+    }
+
+    /* Navigation links */
+    #menu {
+        font-size: 75%;
+    }
+
+    #menu li {
+        margin-right: 15px;
+    }
+
+    /* Call To Action (cat) section */
+    .cat {
+        height: 700px;
+    }
+
+    .cat h2 {
+        font-size: 90%;
+        padding-top: 40px;
+    }
+
+    .cat img {
+        padding-top: 40px;
+        width: 250px;
+    }
+
+    .rent,
+    .leasing {
+        margin-top: 40px;
+        width: 300px;
+        height: 250px;
+    }
+
+    /* Main image section */
+    .main-image {
+        height: 310px;
+    }
+
+    .main-image img {
+        border-radius: 0 25px 10px 0;
+    }
+
+    .main-image h3 {
+        font-size: 100%;
+        line-height: 25px;
+        top: 110px;
+    }
+
+    /* Main button */
+    .main-button {
+        top: 220px;
+        left: 70px;
+    }
+
+    /* Location */
+    .location {
+        height: 700px;
+    }
+
+    .location h2 {
+        text-align: center;
+    }
+
+    .location h3 {
+        font-size: 100%;
+    }
+
+    .city img {
+        width: 300px;
+        height: 120px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .city:last-child h3 {
+        margin-bottom: 50px;
+    }
+
+    /* How it works section */
+    #how-to {
+        height: 1020px;
+        text-align: center;
+    }
+
+    #how-to h2 {
+        font-size: 110%;
+        margin-bottom: 5px;
+    }
+
+    .action img {
+        width: 300px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .text-block {
+        width: 300px;
+    }
+
+    .text-block h4 {
+        font-size: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* Why Carrent */
+    .why-carrent {
+        height: 500px;
+    }
+
+    .why-carrent h2 {
+        font-size: 110%;
+    }
+
+    .review img {
+        margin-right: 0;
+        width: 300px;
+        height: 137px;
+        object-position: 0 -146px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* Embedded map  */
+    .find-us {
+        margin: 30px auto 30px;
+        height: 280px;
+    }
+
+    .find-us iframe {
+        height: 200px;
+    }
+
+    .find-us h2 {
+        font-size: 110%;
+    }
+
+    /* Footer */
+    .openning-hours h2 {
+        font-size: 110%;
+    }
+
+    .openning-hours>p {
+        font-size: 13px;
+    }
+
+    .service-wrapper {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .social-networks>li>a {
+        margin: 0 10px;
         display: block;
     }
-    
+
+    .social-networks>li {
+        margin: 40px 5px 50px;
+    }
+
+    .social-networks i {
+        font-size: 250%;
+    }
+
+    /* Rent Page, Leasing Page, SignUp page */
+    #service {
+        height: 930px;
+    }
+
+.service-wrapper h2 {
+    font-size: 120%;
+}
+
+    .service-form {
+        padding: 115px 20px 25px;
+        height: 500px;
+        margin-top: 25px;
+    }
+
+    .signup-form {
+        padding: 170px 20px 40px;
+        height: 350px;
+    }
+
+    #make,
+    #type,
+    #pickup,
+    #return {
+        width: 260px;
+    }
+
+    #period,
+    #contract {
+        width: 260px;
+    }
+
+    #start-date,
+    #start-time,
+    #end-date,
+    #end-time {
+        width: 120px;
+    }
+
+    #start-time,
+    #end-time {
+        margin-left: 9px;
+    }
+
+    #small-width {
+        width: 127px;
+    }
+
+    .service-form .rent-a-car {
+        width: 75%;
+        top: 50px;
+        left: 45px;
+    }
+
+    .service-form .lease-a-car {
+        width: 55%;
+        top: 30px;
+        left: 70px;
+    }
+
+    .signup-form .signup-car {
+        width: 70%;
+        top: 25px;
+        left: 55px;
+    }
+
+.signup-input {
+    width: 250px;
+}
+
+    .book-button {
+        margin: 80px auto 0;
+    }
+}
