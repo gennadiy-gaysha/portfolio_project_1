@@ -471,6 +471,10 @@ iframe {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.google-maps iframe {
+    width: 100%;
+}
+
 /* Signup form */
 .signup-form {
     margin: 0 auto;
@@ -537,10 +541,11 @@ iframe {
         width: 900px;
     }
 
-.rent, .leasing {
-    width: 400px;
-    height: 400px;
-}
+    .rent,
+    .leasing {
+        width: 400px;
+        height: 400px;
+    }
 
     .rent {
         margin-right: 100px;
@@ -1366,14 +1371,14 @@ iframe {
         border-radius: 1px;
     }
 
-        /* Gellery section */
-        #photos {
-            width: 300px;
-            column-count: 2;
-        }
-    
-        .gallery-container {
-            height: 1450px;
+    /* Gellery section */
+    #photos {
+        width: 300px;
+        column-count: 2;
     }
-    
+
+    .gallery-container {
+        height: 1450px;
+    }
+
 }
