@@ -472,7 +472,7 @@ iframe {
 }
 
 .google-maps iframe {
-    width: 100%;
+    width: 100% !important;
 }
 
 /* Signup form */
