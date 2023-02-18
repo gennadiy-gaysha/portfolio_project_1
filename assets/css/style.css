@@ -101,7 +101,7 @@ nav>ul:last-child {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    height: 750px;
+    height: 850px;
 }
 
 .cat img {
@@ -120,11 +120,11 @@ nav>ul:last-child {
     color: white;
     margin-top: 60px;
     background-color: rgb(0, 0, 0, .5);
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     border-radius: 10px;
     float: left;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .leasing {
@@ -537,6 +537,11 @@ iframe {
         width: 900px;
     }
 
+.rent, .leasing {
+    width: 400px;
+    height: 400px;
+}
+
     .rent {
         margin-right: 100px;
     }
@@ -858,7 +863,7 @@ iframe {
 
     /* Call To Action (cat) section */
     .cat {
-        height: 850px;
+        height: 900px;
     }
 
     .cat h2 {
@@ -1260,7 +1265,7 @@ iframe {
 
     /* Footer */
     .openning-hours h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     .openning-hours>p {
@@ -1317,6 +1322,7 @@ iframe {
         width: 260px;
     }
 
+
     #start-date,
     #start-time,
     #end-date,
@@ -1357,6 +1363,7 @@ iframe {
 
     .book-button {
         margin: 80px auto 0;
+        border-radius: 1px;
     }
 
         /* Gellery section */
