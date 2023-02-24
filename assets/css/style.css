@@ -1,3 +1,4 @@
+/* IMPORTING TWO MAIN FONTS: UBUNTU (GENERAL FONT) AND WARNES (LOGO) */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Warnes&display=swap');
 
 * {
@@ -13,7 +14,7 @@ body {
 
 }
 
-/* Background + Center wrapper 1000px */
+/* BACKGROUND + WRAPPER 1000px */
 .cat-footer-background {
     width: 100%;
     background: url(../img/background.png) center center;
@@ -40,6 +41,7 @@ body {
     text-transform: uppercase;
 }
 
+/* NAV BAR AND LOGO */
 header {
     width: 100%;
     height: 75px;
@@ -47,7 +49,6 @@ header {
     overflow: hidden;
 }
 
-/* Logo */
 #logo {
     font-family: Warnes, sans-serif;
     text-transform: uppercase;
@@ -56,7 +57,6 @@ header {
     font-size: 280%;
 }
 
-/* Navigation links */
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
@@ -96,7 +96,7 @@ nav>ul:last-child {
     margin-left: 30px;
 }
 
-/* Call To Action (cat) section */
+/* CALL TO ACTION (CAT) SECTION */
 .cat {
     color: white;
     text-transform: uppercase;
@@ -151,7 +151,7 @@ nav>ul:last-child {
     letter-spacing: 2px;
 }
 
-/* Main image section */
+/* MAIN IMAGE SECTION */
 .main-image {
     height: 620px;
     position: relative;
@@ -172,7 +172,6 @@ nav>ul:last-child {
     text-shadow: 3px 3px 5px rgb(177, 177, 177);
 }
 
-/* Main button */
 .main-button {
     width: 242px;
     font-size: 18px;
@@ -189,7 +188,7 @@ nav>ul:last-child {
     left: 100px;
 }
 
-/* Location */
+/* LOCATION SECTION */
 .location {
     height: 520px;
 }
@@ -216,7 +215,7 @@ nav>ul:last-child {
     float: left;
 }
 
-/* How it works section */
+/* HOW IT WORKS SECTION */
 #how-to {
     height: 450px;
 }
@@ -253,7 +252,7 @@ nav>ul:last-child {
     width: 242.5px;
 }
 
-/* Why Carrent */
+/* REVIEWS SECTION */
 .why-carrent {
     height: 450px;
 }
@@ -274,8 +273,27 @@ nav>ul:last-child {
     margin-right: 0px;
 }
 
-/* Footer */
+/* EMBEDDED MAP SECTION  */
+.find-us {
+    width: auto;
+    height: 400px;
+    margin: 0 auto 30px;
+}
 
+.find-us h2 {
+    text-shadow: 3px 3px 5px rgb(177, 177, 177);
+}
+
+iframe {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.google-maps iframe {
+    width: 100% !important;
+}
+
+/* FOOTER */
 footer {
     height: 300px;
 }
@@ -319,7 +337,7 @@ footer {
     font-size: 300%;
 }
 
-/* Rent page */
+/* RENTING AND LEASING A CAR PAGES */
 #service {
     width: 100%;
     height: 760px;
@@ -370,7 +388,6 @@ footer {
     left: 500px;
 }
 
-/* ------------------------------------- */
 #make,
 #type,
 #pickup,
@@ -436,7 +453,7 @@ footer {
     background-color: rgba(255, 0, 0, 1);
 }
 
-/* Gellery section */
+/* GALLERY SECTION */
 .gallery-container {
     height: 1300px;
     background: url(../img/background.png) center center;
@@ -470,27 +487,7 @@ footer {
     width: 100%;
 }
 
-/* Embedded map  */
-.find-us {
-    width: auto;
-    height: 400px;
-    margin: 0 auto 30px;
-}
-
-.find-us h2 {
-    text-shadow: 3px 3px 5px rgb(177, 177, 177);
-}
-
-iframe {
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.google-maps iframe {
-    width: 100% !important;
-}
-
-/* Signup form */
+/* SIGNUP FORM */
 .signup-form {
     margin: 0 auto;
     margin-top: 50px;
@@ -549,13 +546,14 @@ iframe {
 
 
 
-/* Media queries */
+/* MEDIA QUERIES */
 @media screen and (max-width: 1200px) {
     .center-wrapper {
         margin: 0 auto;
         width: 900px;
     }
 
+    /* CALL TO ACTION (CAT) SECTION */
     .rent,
     .leasing {
         width: 400px;
@@ -566,10 +564,12 @@ iframe {
         margin-right: 100px;
     }
 
+    /* LOCATION SECTION */
     .city img {
         width: 217.5px;
     }
 
+    /* HOW IT WORKS SECTION */
     .action img {
         width: 217.5px;
     }
@@ -583,21 +583,23 @@ iframe {
         font-size: 90%;
     }
 
+    /* REVIEWS SECTION */
     .review img {
         width: 293.33px;
     }
 
+    /* FOOTER */
+    .social-networks>li {
+        margin: 200px 20px;
+    }
+
+    /* ALL FORM PAGES */
     .service-wrapper {
         margin: 0 auto;
         width: 900px;
     }
 
-    .social-networks>li {
-
-        margin: 200px 20px;
-    }
-
-    /* Rent page */
+    /* RENT AND LEASING PAGES */
     .service-form {
         padding-left: 50px;
     }
@@ -631,6 +633,7 @@ iframe {
         left: 450px;
     }
 
+    /* GALLERY SECTION */
     #photos {
         width: 900px;
     }
@@ -642,17 +645,17 @@ iframe {
         width: 700px;
     }
 
-    /* Logo */
+    /* LOGO */
     #logo {
         font-size: 250%;
     }
 
-    /* Navigation links */
+    /* NAVIGATION LINKS */
     #menu {
         font-size: 90%;
     }
 
-    /* Call To Action (cat) section */
+    /* CALL TO ACTION (CAT) SECTION */
     .cat {
         height: 580px;
     }
@@ -679,7 +682,7 @@ iframe {
         margin-right: 60px;
     }
 
-    /* Main image section */
+    /* MAIN IMAGE SECTION */
     .main-image {
         height: 500px;
         position: relative;
@@ -695,7 +698,7 @@ iframe {
         top: 200px;
     }
 
-    /* Main button */
+    /* BUTTON ON MAIN IMAGE SECTION */
     .main-button {
         width: 200px;
         font-size: 18px;
@@ -704,7 +707,7 @@ iframe {
         left: 90px;
     }
 
-    /* Location */
+    /* LOCATION SECTION */
     .location {
         height: 450px;
     }
@@ -713,7 +716,7 @@ iframe {
         width: 167.5px;
     }
 
-    /* How it works section */
+    /* HOW IT WORKS SECTION */
     #how-to {
         height: 400px;
     }
@@ -731,7 +734,7 @@ iframe {
         font-size: 80%;
     }
 
-    /* Why Carrent */
+    /* REVIEWS SECTION */
     .review img {
         width: 226.67px;
     }
@@ -740,7 +743,7 @@ iframe {
         height: 400px;
     }
 
-    /* Footer */
+    /* FOOTER */
     .openning-hours h2 {
         font-size: 110%;
     }
@@ -758,7 +761,7 @@ iframe {
         margin: 200px 20px;
     }
 
-    /* Rent Page, Leasing Page, SignUp page */
+    /* RENT, LEASING AND SIGNUP PAGES */
 
     .service-wrapper h2 {
         font-size: 200%;
@@ -820,8 +823,6 @@ iframe {
         left: 500px;
     }
 
-    /* ------------------------------- */
-
     .service-form .rent-a-car {
         width: 40%;
         top: 90px;
@@ -845,7 +846,7 @@ iframe {
         width: 35%
     }
 
-    /* Gellery section */
+    /* GALLERY SECTION */
     #photos {
         width: 700px;
         column-count: 3;
@@ -862,18 +863,18 @@ iframe {
         width: 440px;
     }
 
-    /* Header */
+    /* HEADER */
     header {
         height: 120px;
     }
 
-    /* Logo */
+    /* LOGO */
     #logo {
         padding-top: 5px;
         font-size: 250%;
     }
 
-    /* Navigation links */
+    /* NAVIGATION LINKS */
     #menu {
         font-size: 90%;
         float: left;
@@ -881,7 +882,7 @@ iframe {
         line-height: 20px;
     }
 
-    /* Call To Action (cat) section */
+    /* CALL TO ACTION (CAT) SECTION */
     .cat {
         height: 900px;
     }
@@ -916,7 +917,7 @@ iframe {
         margin-right: 0;
     }
 
-    /* Main image section */
+    /* MAIN IMAGE SECTION */
     .main-image {
         height: 310px;
         position: relative;
@@ -933,7 +934,7 @@ iframe {
         top: 100px;
     }
 
-    /* Main button */
+    /* BUTTON ON MAIN IMAGE SECTION */
     .main-button {
         width: 150px;
         font-size: 12px;
@@ -942,7 +943,7 @@ iframe {
         left: 50px;
     }
 
-    /* Location */
+    /* LOCATION */
     .location {
         height: 380px;
     }
@@ -967,7 +968,7 @@ iframe {
         margin-right: 0px;
     }
 
-    /* How it works section */
+    /* HOW IT WORKS SECTION */
     #how-to {
         height: 430px;
     }
@@ -1002,7 +1003,7 @@ iframe {
         display: none;
     }
 
-    /* Why Carrent */
+    /* REVIEWS SECTION */
     .why-carrent {
         height: 700px;
     }
@@ -1025,7 +1026,7 @@ iframe {
         margin-bottom: 10px;
     }
 
-    /* Embedded map  */
+    /* EMBEDDED MAP SECTION  */
     .find-us {
         margin: 30px auto 30px;
         height: 280px;
@@ -1039,7 +1040,7 @@ iframe {
         font-size: 110%;
     }
 
-    /* Footer */
+    /* FOOTER */
     .openning-hours h2 {
         font-size: 110%;
     }
@@ -1063,7 +1064,7 @@ iframe {
         margin: 70px 20px 50px;
     }
 
-    /* Rent Page, Leasing Page, SignUp page */
+    /* RENT, LEASING AND SIGNUP PAGES */
     #service {
         height: 900px;
     }
@@ -1127,7 +1128,7 @@ iframe {
         width: 320px;
     }
 
-    /* Gellery section */
+    /* GALLERY SECTION */
     #photos {
         width: 440px;
         column-count: 3;
@@ -1143,13 +1144,13 @@ iframe {
         width: 300px
     }
 
-    /* Logo */
+    /* LOGO */
     #logo {
         padding-top: 5px;
         font-size: 230%;
     }
 
-    /* Navigation links */
+    /* NAVIGATION LINKS */
     #menu {
         font-size: 75%;
     }
@@ -1158,7 +1159,7 @@ iframe {
         margin-right: 15px;
     }
 
-    /* Call To Action (cat) section */
+    /* CALL TO ACTION (CAT) SECTION */
     .cat {
         height: 700px;
     }
@@ -1180,7 +1181,7 @@ iframe {
         height: 250px;
     }
 
-    /* Main image section */
+    /* MAIN IMAGE SECTION */
     .main-image {
         height: 310px;
     }
@@ -1195,13 +1196,13 @@ iframe {
         top: 110px;
     }
 
-    /* Main button */
+    /* BUTTON ON MAIN IMAGE SECTION */
     .main-button {
         top: 220px;
         left: 70px;
     }
 
-    /* Location */
+    /* LOCATION SECTION */
     .location {
         height: 700px;
     }
@@ -1225,7 +1226,7 @@ iframe {
         margin-bottom: 50px;
     }
 
-    /* How it works section */
+    /* HOW IT WORKS SECTION */
     #how-to {
         height: 1020px;
         text-align: center;
@@ -1251,7 +1252,7 @@ iframe {
         margin-bottom: 30px;
     }
 
-    /* Why Carrent */
+    /* REVIEWS SECTION */
     .why-carrent {
         height: 500px;
     }
@@ -1269,7 +1270,7 @@ iframe {
         margin-bottom: 10px;
     }
 
-    /* Embedded map  */
+    /* EMBEDDED MAP SECTION  */
     .find-us {
         margin: 30px auto 30px;
         height: 280px;
@@ -1283,7 +1284,7 @@ iframe {
         font-size: 110%;
     }
 
-    /* Footer */
+    /* FOOTER */
     .openning-hours h2 {
         font-size: 100%;
     }
@@ -1310,7 +1311,7 @@ iframe {
         font-size: 250%;
     }
 
-    /* Rent Page, Leasing Page, SignUp page */
+    /* RENT, LEASING AND SIGNUP PAGES */
     #service {
         height: 850px;
     }
@@ -1386,7 +1387,7 @@ iframe {
         border-radius: 1px;
     }
 
-    /* Gellery section */
+    /* GALLERY SECTION */
     #photos {
         width: 300px;
         column-count: 2;

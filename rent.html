@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!-- NAV BAR AND LOGO -->
     <header>
         <div class="center-wrapper">
             <a href="index.html">
@@ -34,6 +35,8 @@
 
     <section id="service">
         <div class="service-wrapper">
+
+            <!-- FORM FOR RENTING A CAR -->
             <h2>cars for rent</h2>
             <form method="post" action="https://formdump.codeinstitute.net/" class="service-form">
                 <img src="assets/img/rent.webp" alt="Cars for rent" class="rent-a-car">
@@ -59,6 +62,7 @@
                     <option value="F">F: SUV</option>
                 </select>
 
+                <!-- THIS STRUCTURE ALLOWS TO ADD TWO ADDITIONAL COLUMNS TO THE LINE -->
                 <label for="pickup" class="two-columns">Picking up Location:<select id="pickup" name="pickup" required
                         class="text-input">
                         <option value="">-- Please, choose pickup City --</option>
@@ -68,13 +72,12 @@
                         <option value="BOSTON">BOSTON</option>
                     </select></label>
 
+                <label for="start-date" class="two-columns" id="small-width">Start date:<input id="start-date"
+                        type="date" name="start-date" required class="text-input"></label>
+                <label for="start-time" class="two-columns" id="small-width">Start time:<input id="start-time"
+                        type="time" name="start-time" required class="text-input"></label>
 
-                <label for="start-date" class="two-columns" id="small-width">Start date:<input id="start-date" type="date"
-                        name="start-date" required class="text-input"></label>
-                <label for="start-time" class="two-columns" id="small-width">Start time:<input id="start-time" type="time"
-                        name="start-time" required class="text-input"></label>
-
-
+                <!-- THIS STRUCTURE ALLOWS TO ADD TWO ADDITIONAL COLUMNS TO THE LINE -->
                 <label for="return" class="two-columns">Return Location:<select id="return" name="return" required
                         class="text-input">
                         <option value="">-- Please, choose pickup City --</option>
@@ -84,13 +87,12 @@
                         <option value="BOSTON">BOSTON</option>
                     </select></label>
 
+                <label for="end-date" class="two-columns" id="small-width">Return date:<input id="end-date" type="date"
+                        name="end-date" required class="text-input"></label>
+                <label for="end-time" class="two-columns" id="small-width">Return time:<input id="end-time" type="time"
+                        name="end-time" required class="text-input"></label>
 
-                <label for="end-date" class="two-columns" id="small-width">Return date:<input id="end-date" type="date" name="end-date"
-                        required class="text-input"></label>
-                <label for="end-time" class="two-columns" id="small-width">Return time:<input id="end-time" type="time" name="end-time"
-                        required class="text-input"></label>
-
-
+                <!-- BOOK NOW BUTTON -->
                 <input type="submit" value="Book now" class="book-button">
             </form>
 
@@ -99,6 +101,7 @@
     <div class="cat-footer-background">
         <div class="center-wrapper">
 
+            <!-- FOOTER -->
             <footer>
                 <div class="openning-hours">
                     <h2>Still have questions? Contact us!</h2>
@@ -159,9 +162,11 @@
                                 class="fa-brands fa-instagram"></i></a></li>
                 </ul>
             </footer>
+
         </div>
     </div>
 
+    <!-- FONT AWESOME SCRIPT -->
     <script src="https://kit.fontawesome.com/fb168f9df2.js" crossorigin="anonymous"></script>
 </body>
 
