@@ -800,13 +800,13 @@ footer {
         width: 230px;
     }
 
-    .small-width {
-        width: 175px;
+    .two-columns {
+        width: 250px;
     }
 
-    /* .two-columns {
-        width: 250px;
-    } */
+    .two-columns.small-width {
+        width: 175px;
+    }
 
     .text-input {
         height: 27px;
@@ -1082,7 +1082,9 @@ footer {
     #make,
     #type,
     #pickup,
-    #return {
+    #return,
+    #period,
+    #contract {
         width: 360px;
     }
 
@@ -1098,7 +1100,7 @@ footer {
         margin-left: 9px;
     }
 
-    .small-width {
+    .two-columns.small-width {
         width: 178px;
     }
 
@@ -1356,7 +1358,7 @@ footer {
         margin-left: 9px;
     }
 
-    .small-width {
+    .two-columns.small-width {
         width: 127px;
     }
 
