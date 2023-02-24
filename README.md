@@ -81,12 +81,21 @@ The site will be targeted to those who want to eliminate time-consuming process 
 - I confirmed that all sections and pages of the site are all readable and easy to understand.
 - I have confirmed that the forms on all three pages of my site work: requires entries in every field, will only accept an email in email-field, and the "Submit"/"Book now" buttons work.
 
+| FirstName     | LastName      | City     |
+| ------------- | ------------- | -------- |
+| John          | Test1         | NewYork  |
+| Bob           | Test2         | Toronto  |
+
 ### Validator Testing
 
 - HTML 
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2F)
+    - index.html (Main page) - no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2Findex.html)
+    - rent.html (Rent page) - no errors were returned when passing through the official [W3C validator]
+    - leasing.html (Leasing page) - no errors were returned when passing through the official [W3C validator]
+    - gallery.html (Gallery page) - no errors were returned when passing through the official [W3C validator]
+    - signup.html (Signup page) - no errors were returned when passing through the official [W3C validator]
 - CSS 
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - style.css - no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
     - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
 

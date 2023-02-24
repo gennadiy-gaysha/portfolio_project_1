@@ -800,13 +800,13 @@ footer {
         width: 230px;
     }
 
-    #small-width {
+    .small-width {
         width: 175px;
     }
 
-    .two-columns {
+    /* .two-columns {
         width: 250px;
-    }
+    } */
 
     .text-input {
         height: 27px;
@@ -1098,7 +1098,7 @@ footer {
         margin-left: 9px;
     }
 
-    #small-width {
+    .small-width {
         width: 178px;
     }
 
@@ -1356,7 +1356,7 @@ footer {
         margin-left: 9px;
     }
 
-    #small-width {
+    .small-width {
         width: 127px;
     }
 
