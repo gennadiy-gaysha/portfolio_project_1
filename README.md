@@ -76,24 +76,43 @@ The site will be targeted to those who want to eliminate time-consuming process 
 
 ## Testing
 
-- I tested my site in the browsers that have different engines, i.e.. Chrome, Firefox, and Safari.
-- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
-- I confirmed that all sections and pages of the site are all readable and easy to understand.
-- I have confirmed that the forms on all three pages of my site work: requires entries in every field, will only accept an email in email-field, and the "Submit"/"Book now" buttons work.
+### General
 
-| FirstName     | LastName      | City     |
-| ------------- | ------------- | -------- |
-| John          | Test1         | NewYork  |
-| Bob           | Test2         | Toronto  |
+| **Feature**                    |                         | **Test**      | **Outcome**                                                                                                              | **Pass/Fail** |
+|--------------------------------|------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------|---------------|
+| Navigation bar                 | Main logo link               | Functionality | Clicking the link on any page redirects to the home page                                                                 | Pass          |
+|                                | Menu items                   | Functionality | Clicking any menu link redirects to the appropriate page                                                                 | Pass          |
+|                                |                              | Style         | Menu item of current page is underlined                                                                                  | Pass          |
+|                                |                              | Style         | Hover effect makes menu item underlined on any page                                                                      | Pass          |
+|                                | Navigation bar appearance    | Style         | Looks the same on any page                                                                                               | Pass          |
+| Footer                         | Social media links           | Functionality | Clicking FB, Twitter, Youtube and Instagram links redirects to appropriate site and open in a new window                 | Pass          |
+|                                | Footer appearance            | Style         | Looks the same on any page                                                                                               | Pass          |
+| Main page                      | Call to action (cat) section | Functionality | Clicking RENT or LEASING link redirects to RENT or LEASING page respectively                                             | Pass          |
+|                                | Main image section           | Functionality | Clicking HOW IT WORKS button redirects to HOW IT WORKS SECTION of the main page                                          | Pass          |
+|                                | Embedded map section         | Functionality | Embedded Google map is interactive                                                                                       | Pass          |
+| Rent, Leasing and Signup pages | Form field                   | Functionality | All form fields work correctly, in accordance with their type                                                            | Pass          |
+|                                | Form field                   | Functionality | Each field requires entry before submitting the form                                                                     | Pass          |
+|                                | Form field                   | Style         | Hover effect changes border color of any field from white to green                                                       | Pass          |
+|                                | Submit button                | Functionality | Clicking submit button sends all the information provided by the user to dedicated server                                | Pass          |
+|                                | Submit button                | Style         | Hover effect makes submit button more vivid                                                                              | Pass          |
+| Gallery section                | Photos                       | Style         | The dimensions of the photos where chosen in such a way (no special css-style) that their set formed a regular rectangle | Pass          |
+| Site                           | All pages                    | Functionality | All site functions work correctly and the same in browsers that have different engines, i.e. Chrome, Firefox and Safari  | Pass          |
+|                                |                              | Style         | The site appearance is the same in browsers that have different engines, i.e. Chrome, Firefox and Safari                 | Pass          |
+| Site responsiveness            | All pages                    | > 1200px      | Look good and function on the chosen screen size using the Chrome devtools toolbar                                       | Pass          |
+|                                |                              | <= 1200px     | Look good and function on the chosen screen size using the Chrome devtools toolbar                                       | Pass          |
+|                                |                              | <= 992px      | Look good and function on the chosen screen size using the Chrome devtools toolbar                                       | Pass          |
+|                                |                              | <= 768px      | Look good and function on the chosen screen size using the Chrome devtools toolbar                                       | Pass          |
+|                                |                              | <= 480px      | Look good and function on the chosen screen size using the Chrome devtools toolbar                                       | Pass          |
+
 
 ### Validator Testing
 
 - HTML 
-    - index.html (Main page) - no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2Findex.html)
-    - rent.html (Rent page) - no errors were returned when passing through the official [W3C validator]
-    - leasing.html (Leasing page) - no errors were returned when passing through the official [W3C validator]
-    - gallery.html (Gallery page) - no errors were returned when passing through the official [W3C validator]
-    - signup.html (Signup page) - no errors were returned when passing through the official [W3C validator]
+    - Main page - no errors were returned when passing through the official [W3C validator - index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2Findex.html)
+    - Rent page - no errors were returned when passing through the official [W3C validator - rent.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2Frent.html)
+    - Leasing page - no errors were returned when passing through the official [W3C validator - leasing.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2Fleasing.html)
+    - Gallery page - no errors were returned when passing through the official [W3C validator - gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2Fgallery.html)
+    - Signup page - no errors were returned when passing through the official [W3C validator - signup.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2Fsignup.html)
 - CSS 
     - style.css - no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
