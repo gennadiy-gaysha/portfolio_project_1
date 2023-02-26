@@ -78,7 +78,7 @@ The site will be targeted to those who want to eliminate time-consuming process 
 
 ### General
 
-| **Feature**                    |                         | **Test**      | **Outcome**                                                                                                              | **Pass/Fail** |
+| **Feature**                    | **Element**                  | **Test**      | **Outcome**                                                                                                              | **Pass/Fail** |
 |--------------------------------|------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------|---------------|
 | Navigation bar                 | Main logo link               | Functionality | Clicking the link on any page redirects to the home page                                                                 | Pass          |
 |                                | Menu items                   | Functionality | Clicking any menu link redirects to the appropriate page                                                                 | Pass          |
@@ -122,15 +122,34 @@ The site will be targeted to those who want to eliminate time-consuming process 
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
 
-The live link can be found [here](https://gennadiy-gaysha.github.io/portfolio_project_1/)
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+    2. At the top of the Repository, locate the Settings button on the menu.
+    3. On the left of the Settings page choose the Pages section.
+    4. Under Source, click the dropdown called None and select Main Branch.
+    5. The page will refresh automatically and generate a link to your website.
+
+The live link can be found [here](https://gennadiy-gaysha.github.io/portfolio_project_1/index.html)
      
 ## Credits
 
+- I'm acknowleged to [Vlad Buharkin](https://www.facebook.com/vlad.buharkin) for the idea of [Web design](https://www.figma.com/file/RFOv8bgmCO04pBrn5i2DnS/Untitled?node-id=0%3A1&t=HnHRoD0N402QrTta-1) for this site.
+
 ### Content
 
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/).
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) site.
+- Markdown for the testing table in readme.md file was created using [Tables Generator](https://www.tablesgenerator.com/markdown_tables) 
+
 ### Media
+
+- All photos used on the Home, Rent, Leasing and Sign up pages were taken from the [mockup](https://www.figma.com/file/RFOv8bgmCO04pBrn5i2DnS/Untitled?node-id=0%3A1&t=HnHRoD0N402QrTta-1) provided by [Vlad Buharkin](https://www.facebook.com/vlad.buharkin).
+- The images used for the [gallery page](https://gennadiy-gaysha.github.io/portfolio_project_1/gallery.html) were taken from [this](https://www.pexels.com/) other open source site.
+
+### Code
+
+- I've been constantly using [Stack Overflow](https://stackoverflow.com/), 
+[W3Schools](https://www.w3schools.com/) and Chrome Dev tools for inspiration 
+and better understand the code being implemented.
