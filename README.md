@@ -1,82 +1,177 @@
 # CARRENT Car Rental and Leasing
 
-CARRENT Car Rental and Leasing site is for those individuals and companies who need additional useful services while renting or leasig the car in a number of cities (Los Angeles, San Fransisco, Washington and Boston) in the US.
+![Web Site on the common screen sizes](assets/img/media/screenshot.png)
 
-The site will be targeted to those who want to eliminate time-consuming process of renting or leasing a car, i. e. picking up a car, returning it to the desired location or filling up the tank before returning the car.
-    ![Web Site on the common screen sizes](assets/img/media/screenshot.png)
+CARRENT is a car rental and leasing website designed to provide individuals and companies with useful services when renting or leasing a car in several cities across the United States, including Los Angeles, San Francisco, Washington, and Boston.
+
+The site targets those who want to eliminate the time-consuming process of renting or leasing a car, such as picking up and returning the car to a desired location or filling up the gas tank before returning the vehicle.
+
+You can visit the deployed website [here](https://gennadiy-gaysha.github.io/portfolio_project_1/index.html)
+
+
+## Table of Contents
+1. [User Experience (UX)](#user-experience-ux)
+    1. [Project Goals](#project-goals)
+    2. [User Stories](#user-stories)
+    3. [Design](#design)
+    4. [Typography](#typography)
+2. [Features](#features)
+    1. [Navigation Bar](#navigation-bar)
+    2. [Footer](#footer)
+    3. [Home Page](#home-page)
+    4. [Cars For Rent Page](#cars-for-rent-page)
+    5. [Cars For Lease Page](#cars-for-lease-page)
+    6. [Gallery Page](#gallery-page)
+    7. [Sign Up Page](#sign-up-page)
+3. [Testing](#testing)
+    1. [Testing User Stories](#testing-user-stories)
+    2. [Testing Style And Functionality](#testing-style-and-functionality)
+    3. [Validator Testing](#validator-testing)
+    4. [Accessibility](#accessibility)
+4. [Finished Product](#finished-product)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
+    1. [Content](#content)
+    2. [Media](#media)
+    3. [Code](#code)
+
+## User Experience (UX)                   
+
+### Project Goals
+
+- The website design should evoke a desire for car trips and travel among users.
+
+- Present the services offered and information about them to attract more customers.
+
+- Should visually showcase the fleet of cars available for rental or leasing to users.
+
+- Offer opportunities to the customers to book services once they decided to visit the business.
+
+### User Stories
+
+- As a customer, I want to be able to navigate the website intuitively and learn more about the services being offered.
+
+- As a customer, I want to easily book the offered services.
+
+- As a customer, I want to find out the working hours and how to contact the business and its representatives.
+
+- As a customer, I want to find links to the business's social media accounts.
+
+- As a customer, I want to easily find the business's location.
+
+### Design 
+
+ - For this project, the [initial design](https://www.figma.com/file/RFOv8bgmCO04pBrn5i2DnS/Untitled?node-id=0%3A1&t=HnHRoD0N402QrTta-1) was [simplified](https://www.figma.com/file/3OIcTkyHELySi8vHELrORu/Project_1?node-id=0%3A1&t=lD2Em3jeoVDLDZ9l-1) using the Figma web application. Later on, during the course of the work, some small amendments were made to the adapted design to ensure that it corresponded to the code that was applied.
+
+  ![Adapted design](assets/img/media/figma.png )
+
+### Typography
+
+ - The main font used in the site is Ubuntu, with Sans Serif as the fallback font in case Ubuntu is not being imported correctly. This font was used for all headings, paragraphs, forms, and button values. The Warnes font has been chosen for the site logo with Sans Serif used again as a fallback.
+
+[Back To The Table of Contents](#table-of-contents)
 
 ## Features
 
-- __Navigation Bar__
+### Navigation Bar
 
-    -  Featured on all four pages, the full responsive navigation bar includes links to the Logo, Rent and Leasing pages, Why CARRENT? section of the Home Page and Sign Up page and is identical in each page.
-    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- Featured on all four pages, the full responsive navigation bar includes links to the Logo, Rent and Leasing pages, Why CARRENT? section of the Home Page and Sign Up page and is identical in each page.
+- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
     ![Nav Bar](assets/img/media/nav-bar.png)
 
-- __The Footer__ 
+### Footer 
 
-    - The footer section includes links to the relevant social media sites for CARRENT. The links will open to a new tab to allow easy navigation for the user. It encourages them to keep connected via social media.
-    - The footer also contains information about CARRENT address and openning hours.
+- The footer section includes links to the relevant social media sites for CARRENT. The links will open to a new tab to allow easy navigation for the user. It encourages them to keep connected via social media.
+- The footer also contains information about CARRENT address and openning hours.
     
     ![Footer](assets/img/media/footer.png)
 
-- __Home Page__ 
+### Home Page
 
-    - the Main Image section
-        - Contains Call to Action Section. 
-        - Consists of two car images that are links to "Rent a Car" and "Lease a Car" site pages. These allows the user to choose between two optins, whether to rent or lease the car.
+- the Main Image section
+    - Contains Call to Action Section. 
+    - Consists of two car images that are links to "Rent a Car" and "Lease a Car" site pages. These allows the user to choose between two optins, whether to rent or lease the car.
 
     ![Hero Image](assets/img/media/hero-image.png)
 
-    - The firm ethos section
-        - Contains the CARRENT hero image and slogan, which describes shortly the main goal of the firm.
-        - Allows the user to see all the benefits of CARRENT service by clicking on "How it works button" which refers to appropriate section of the HOME PAGE.
+- The firm ethos section
+    - Contains the CARRENT hero image and slogan, which describes shortly the main goal of the firm.
+    - Allows the user to see all the benefits of CARRENT service by clicking on "How it works button" which refers to appropriate section of the HOME PAGE.
 
     ![Firm Ethos](assets/img/media/firm-ethos.png)
 
-    - Location section
-        - Contains gallery of cities' images wehre CARRENT officies are presented.
-        - This section is valuable to the users as they will be able to easily identify where they can use CARRENT service.
+- Location section
+    - Contains gallery of cities' images wehre CARRENT officies are presented.
+    - This section is valuable to the users as they will be able to easily identify where they can use CARRENT service.
 
     ![Locations](/assets/img/media/locations.png)
 
-    - How it works section
-        - Allows the user to see the benefits of using CARRENT services as compared to other competitors. 
-        - The user will see the value of signing up to CARRENT site.
+- How it works section
+    - Allows the user to see the benefits of using CARRENT services as compared to other competitors. 
+    - The user will see the value of signing up to CARRENT site.
 
     ![How it Works](assets/img/media/how-it-works.png)
 
-    - Why CARRENT? section
-        - Shows clearly why people choose CARRENT Car Rental and Leasing company.
-        - Contains a number of customers reviews where the describe their experience whit CARRENT
+- Why CARRENT? section
+    - Shows clearly why people choose CARRENT Car Rental and Leasing company.
+    - Contains a number of customers reviews where the describe their experience whit CARRENT
 
     ![Why People Choose Our Company?](assets/img/media/why-carrent.png)
 
-- __Cars For Rent Page__
+[Back To The Table of Contents](#table-of-contents)
 
-    - Comprise a form for customers which intend to rent a car.
-    - There are several mandatory and intuitively obvious fields that user have to fill in to book a car.
+### Cars For Rent Page
+
+- Comprise a form for customers which intend to rent a car.
+- There are several mandatory and intuitively obvious fields that user have to fill in to book a car.
 
 ![Rent a Car](assets/img/media/rent-page.png)
 
-- __Cars For Lease Page__
+### Cars For Lease Page
 
-    - Comprise a form for customers which intend to lease a car.
-    - There are several mandatory and intuitively obvious fields that user have to fill in to get lease proposal.
+- Comprise a form for customers which intend to lease a car.
+- There are several mandatory and intuitively obvious fields that user have to fill in to get lease proposal.
 
 ![Lease a Car](assets/img/media/lease-page.png)
 
-- __The Sign Up Page__
-    - This page will allow the user to get signed up to CARRENT to become a customer. 
-    - The user will be asked to submit their full name and email address.
-    - Also there is a possibility to quick register via visitor Facebook or Google account.
+### Gallery Page
+
+- This website page visually shows the user examples of cars that can be rented or leased.
+
+![Gallery](assets/img/media/gallery.png)
+
+### Sign Up Page
+
+- This page will allow the user to get signed up to CARRENT to become a customer. 
+- The user will be asked to submit their full name and email address.
+- Also there is a possibility to quick register via visitor Facebook or Google account.
 
 ![Sign Up](assets/img/media/sign-up.png)
 
+[Back To The Table of Contents](#table-of-contents)
+
 ## Testing
 
-### General
+### Testing User Stories
+
+- As a customer, I want to be able to navigate the website intuitively and learn more about the services being offered.
+    - The website provides an easy-to-use layout that allows customers to quickly and easily find the information they need.
+    - The navigation bar is prominently displayed on all pages, making it simple for customers to locate and use.
+
+- As a customer, I want to easily book the offered services.
+    - The 'Rent' and 'Leasing' links on the 'Call to Action' section of the Main Page and links to the 'Rent' and 'Leasing' pages on the navigation bar provide easy access to the form where the user can book a service.
+
+- As a customer, I want to find out the working hours and how to contact the business and its representatives.
+    - The user can easily find information about the business's working hours and contacts in the footer, which is located at the end of each page.
+
+- As a customer, I want to find links to the business's social media accounts.
+    - The Footer of each webpage contains hyperlinks that direct users to the various social media platforms where the business has a presence.
+
+- As a customer, I want to easily find the business's location.
+    - On the Main Page, there is an interactive Google Map adjacent to the footer where the user can find the business's location.
+
+### Testing Style And Functionality
 
 | **Feature**                    | **Element**                  | **Test**      | **Outcome**                                                                                                              | **Pass/Fail** |
 |--------------------------------|------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------|---------------|
@@ -104,7 +199,6 @@ The site will be targeted to those who want to eliminate time-consuming process 
 |                                |                              | <= 768px      | Look good and function on the chosen screen size using the Chrome devtools toolbar                                       | Pass          |
 |                                |                              | <= 480px      | Look good and function on the chosen screen size using the Chrome devtools toolbar                                       | Pass          |
 
-
 ### Validator Testing
 
 - HTML 
@@ -115,10 +209,16 @@ The site will be targeted to those who want to eliminate time-consuming process 
     - Signup page - no errors were returned when passing through the official [W3C validator - signup.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2Fsignup.html)
 - CSS 
     - style.css - no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgennadiy-gaysha.github.io%2Fportfolio_project_1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- Accessibility
-    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
+
+### Accessibility
+
+- I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
 
 ![Lighthouse](assets/img/media/Lighthouse.png)
+
+[Back To The Table of Contents](#table-of-contents)
+
+## Finished Product
 
 ## Deployment
 
@@ -131,8 +231,8 @@ The site will be targeted to those who want to eliminate time-consuming process 
     4. Under Source, click the dropdown called None and select Main Branch.
     5. The page will refresh automatically and generate a link to your website.
 
-The live link can be found [here](https://gennadiy-gaysha.github.io/portfolio_project_1/index.html)
-     
+You can visit the deployed website  [here](https://gennadiy-gaysha.github.io/portfolio_project_1/index.html)
+
 ## Credits
 
 - I'm acknowleged to [Vlad Buharkin](https://www.facebook.com/vlad.buharkin) for the idea of [Web design](https://www.figma.com/file/RFOv8bgmCO04pBrn5i2DnS/Untitled?node-id=0%3A1&t=HnHRoD0N402QrTta-1) for this site.
@@ -146,10 +246,13 @@ The live link can be found [here](https://gennadiy-gaysha.github.io/portfolio_pr
 ### Media
 
 - All photos used on the Home, Rent, Leasing and Sign up pages were taken from the [mockup](https://www.figma.com/file/RFOv8bgmCO04pBrn5i2DnS/Untitled?node-id=0%3A1&t=HnHRoD0N402QrTta-1) provided by [Vlad Buharkin](https://www.facebook.com/vlad.buharkin).
-- The images used for the [gallery page](https://gennadiy-gaysha.github.io/portfolio_project_1/gallery.html) were taken from [this](https://www.pexels.com/) other open source site.
+- The images used for the [gallery page](https://gennadiy-gaysha.github.io/portfolio_project_1/gallery.html) were taken from [this](https://www.pexels.com/) open source site.
 
 ### Code
 
 - I've been constantly using [Stack Overflow](https://stackoverflow.com/), 
 [W3Schools](https://www.w3schools.com/) and Chrome Dev tools for inspiration 
-and better understand the code being implemented.
+and better understanding the code being implemented.
+- To implement the social media icon grow effect (while hovering on it) I use a code snippet from the opensourse site [Hover.css](https://ianlunn.github.io/Hover/)
+
+[Back To The Table of Contents](#table-of-contents)
