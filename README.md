@@ -49,15 +49,15 @@ You can visit the deployed website [here](https://gennadiy-gaysha.github.io/port
 
 ### User Stories
 
-- As a customer, I want to be able to navigate the website intuitively and learn more about the services being offered.
+- As a customer, I want to be able to navigate the website easily and find information about the services offered.
 
-- As a customer, I want to easily book the offered services.
+- As a customer, I want to be able to book services quickly and easily.
 
-- As a customer, I want to find out the working hours and how to contact the business and its representatives.
+- As a customer, I want to find out the business's working hours and how to contact them or their representatives.
 
-- As a customer, I want to find links to the business's social media accounts.
+- As a customer, I want to find links to the business's social media accounts so that I can follow them and stay updated.
 
-- As a customer, I want to easily find the business's location.
+- As a customer, I want to be able to find the business's location easily, whether through an interactive map or a clear address on the website.
 
 ### Design 
 
@@ -75,47 +75,49 @@ You can visit the deployed website [here](https://gennadiy-gaysha.github.io/port
 
 ### Navigation Bar
 
-- Featured on all four pages, the full responsive navigation bar includes links to the Logo, Rent and Leasing pages, Why CARRENT? section of the Home Page and Sign Up page and is identical in each page.
-- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- The fully responsive navigation bar, which is featured on all five pages, includes links to the logo, Rent and Leasing pages, as well as Gallery and Sign Up pages. This navigation bar is identical on each page.
+
+- This section allows users to easily navigate from page to page across all devices without having to use the "back" button to return to the previous page.
 
     ![Nav Bar](assets/img/media/nav-bar.png)
 
 ### Footer 
 
-- The footer section includes links to the relevant social media sites for CARRENT. The links will open to a new tab to allow easy navigation for the user. It encourages them to keep connected via social media.
-- The footer also contains information about CARRENT address and openning hours.
+- The footer section includes links to relevant social media sites for CARRENT. These links will open in a new tab to allow easy navigation for users and encourage them to stay connected via social media.
+
+- The footer also contains information about CARRENT's address and opening hours.
     
     ![Footer](assets/img/media/footer.png)
 
 ### Home Page
 
-- the Main Image section
-    - Contains Call to Action Section. 
-    - Consists of two car images that are links to "Rent a Car" and "Lease a Car" site pages. These allows the user to choose between two optins, whether to rent or lease the car.
+- The Main Image section 
+    - Contains a Call to Action section.
+    - Consists of two car images that serve as links to the "Rent a Car" and "Lease a Car" site pages. These links allow users to choose between the two options of renting or leasing a car.
 
     ![Hero Image](assets/img/media/hero-image.png)
 
-- The firm ethos section
-    - Contains the CARRENT hero image and slogan, which describes shortly the main goal of the firm.
-    - Allows the user to see all the benefits of CARRENT service by clicking on "How it works button" which refers to appropriate section of the HOME PAGE.
+- The Firm Ethos section 
+    - Contains the CARRENT hero image and slogan, which briefly describes the main goal of the firm.
+    - Allows users to view all the benefits of CARRENT's services by clicking on the "How it works" button, which directs them to the appropriate section of the Home Page.
 
     ![Firm Ethos](assets/img/media/firm-ethos.png)
 
 - Location section
-    - Contains gallery of cities' images wehre CARRENT officies are presented.
-    - This section is valuable to the users as they will be able to easily identify where they can use CARRENT service.
+    - Contains a gallery of images of cities where CARRENT offices are located.
+    - This section is valuable to users as they can easily identify where they can access CARRENT's services.
 
     ![Locations](/assets/img/media/locations.png)
 
 - How it works section
-    - Allows the user to see the benefits of using CARRENT services as compared to other competitors. 
-    - The user will see the value of signing up to CARRENT site.
+    - Allows users to see the benefits of using CARRENT's services compared to those of other competitors.
+    - Users will see the value of signing up for CARRENT's site.
 
     ![How it Works](assets/img/media/how-it-works.png)
 
 - Why CARRENT? section
-    - Shows clearly why people choose CARRENT Car Rental and Leasing company.
-    - Contains a number of customers reviews where the describe their experience whit CARRENT
+    - Clearly shows why people choose CARRENT Car Rental and Leasing company.
+    - Contains a number of customer reviews where they describe their experience with CARRENT.
 
     ![Why People Choose Our Company?](assets/img/media/why-carrent.png)
 
@@ -123,15 +125,15 @@ You can visit the deployed website [here](https://gennadiy-gaysha.github.io/port
 
 ### Cars For Rent Page
 
-- Comprise a form for customers which intend to rent a car.
-- There are several mandatory and intuitively obvious fields that user have to fill in to book a car.
+- Comprises a form for customers who intend to rent a car.
+- There are several mandatory and intuitively obvious fields that users have to fill in to book a car.
 
 ![Rent a Car](assets/img/media/rent-page.png)
 
 ### Cars For Lease Page
 
-- Comprise a form for customers which intend to lease a car.
-- There are several mandatory and intuitively obvious fields that user have to fill in to get lease proposal.
+- Comprises a form for customers who intend to lease a car.
+- There are several mandatory and intuitively obvious fields that users have to fill in to get lease proposal.
 
 ![Lease a Car](assets/img/media/lease-page.png)
 
@@ -143,9 +145,8 @@ You can visit the deployed website [here](https://gennadiy-gaysha.github.io/port
 
 ### Sign Up Page
 
-- This page will allow the user to get signed up to CARRENT to become a customer. 
-- The user will be asked to submit their full name and email address.
-- Also there is a possibility to quick register via visitor Facebook or Google account.
+- This page will allow users to sign up for CARRENT and become customers.
+- Users will be asked to submit their full name and email address.
 
 ![Sign Up](assets/img/media/sign-up.png)
 
@@ -219,6 +220,39 @@ You can visit the deployed website [here](https://gennadiy-gaysha.github.io/port
 [Back To The Table of Contents](#table-of-contents)
 
 ## Finished Product
+### For clarity, each section of the already existing website below is presented in 2 screenshots for screens with a width greater than 1200 pixels and less than 480 pixels. In order to not overload this section, screenshots for screens with a width less than 992 pixels and 768 pixels are not displayed.
+
+- Main page - introduces the user to the service, provides all the information for feedback, and allows for easy ordering of the advertised service. In addition, 'Reviews' section, which features unbiased reviews from real customers, further encourages the user to order the service.
+
+| ![main-1200](assets/img/media/main-1200.png)  |![main-480](assets/img/media/main-480.png)   |
+|---|---|
+
+- Rent page - contains a simple and intuitive form with necessary prompts. By filling out this form, the user confirms their order by clicking the 'Book Now' button.
+
+|![rent-1200](assets/img/media/rent-1200.png)|![rent-480](assets/img/media/rent-480.png)|
+|---|---|
+
+- Leasing page - contains a simple and intuitive form with necessary prompts. By filling out this form, the user confirms their order by clicking the 'Book Now' button.
+
+|![lease-1200](assets/img/media/lease-1200.png)|![lease-480](assets/img/media/lease-480.png)|
+|---|---|
+
+- Gallery page - comprise a database of cars that can be rented or leased. Photos of the cars allow the user to better understand the commercial offer and motivate them to place an order.
+
+|![gallery-1200](assets/img/media/gallery-1200.png)|![gallery-480](assets/img/media/gallery-480.png)|
+|---|---|
+
+- Sign Up page -  allows the user to easily register on the site by providing their name and email as information. The form is not overloaded with additional questions, which increases user engagement.
+
+|![signup-1200](assets/img/media/signup-1200.png)|![signup-480](assets/img/media/signup-480.png)|
+|---|---|
+
+- Final remark - since this is an educational project, a Code Institute link (i.e. https://formdump.codeinstitute.net/) was used for the Post method, which sends information to the server. The fact that the completed form is sent correctly is evidenced by the transition to the server response page (see screenshot below) after clicking the 'Book Now' or 'Sign Up' buttons.
+
+|![rent-responce](assets/img/media/rent-responce.png)|![lease-responce](assets/img/media/lease-responce.png)|![signup-responce](assets/img/media/signup-responce.png)|
+|---|---|---|
+
+[Back To The Table of Contents](#table-of-contents)
 
 ## Deployment
 
@@ -242,6 +276,7 @@ You can visit the deployed website  [here](https://gennadiy-gaysha.github.io/por
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/).
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) site.
 - Markdown for the testing table in readme.md file was created using [Tables Generator](https://www.tablesgenerator.com/markdown_tables) 
+- Grammar and spelling were checked using the power of [GPT Chat](https://chat.openai.com/chat) and [Grammarly](https://www.grammarly.com/) web app. 
 
 ### Media
 

@@ -186,6 +186,12 @@ nav>ul:last-child {
     position: absolute;
     top: 370px;
     left: 100px;
+    transition: 0.5s;
+}
+
+.main-button:hover{
+    background-color: rgba(255, 0, 0, 0.8);
+    color: #FFFFFF;
 }
 
 /* LOCATION SECTION */
