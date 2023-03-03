@@ -1,6 +1,8 @@
 # CARRENT Car Rental and Leasing
 
-![Web Site on the common screen sizes](assets/img/media/screenshot.png)
+![Web Site on the common screen sizes](assets/img/media/screenshot-2.png)
+
+
 
 CARRENT is a car rental and leasing website designed to provide individuals and companies with useful services when renting or leasing a car in several cities across the United States, including Los Angeles, San Francisco, Washington, and Boston.
 
